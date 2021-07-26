@@ -1,0 +1,216 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: darkblue;
+	overflow-x: hidden;
+}
+.profile-pic{
+	margin-top: 100px;
+	z-index: 200;
+}
+.prof{
+	color: white;
+	font-family: berlin sans fb;
+	font-size: 20px;
+}
+#pol h1{
+	color: white;
+	font-family: algerian;
+	text-align: center;
+	padding-left: 150px;
+	margin-top: 200px;
+}
+#downee img{
+	width: 200px;
+}
+#downs h4{
+	color:red;
+	background-color: white;
+	font-family: algerian;
+}
+#downs p{
+	color:white;
+	font-family: berlin sans fb;
+}
+#downs{
+	margin-top: 200px;
+}
+#downee{
+	margin-top: 200px;
+}
+#downee input{
+width: 200px; 
+font-family: algerian; 
+font-weight: bold;
+}
+.dd{
+	color:red;
+	font-weight: bolder;
+	font-family: berlin sans fb;
+}
+.users{
+	margin-top: 100px;
+	border-left: 5px solid red;
+}
+.users ul{
+	list-style: none;
+}
+.users ul li{
+	color: yellow;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: justify;
+	font-family: berlin sans fb;
+}
+.users h3{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	font-family: berlin sans fb;
+	font-weight: bold;
+	/* margin-top: 100px;
+	position: absolute; */
+}
+#den{
+	margin-top: 200px;
+}
+#den h5{
+	color: white;
+	font-family: berlin sans fb;
+	font-style: normal;
+	word-spacing: 30px;
+}
+.crypto h4, .crypto h3{
+	color:white;
+	font-family: berlin sans fb;
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 80px;
+}
+.crypto span{
+	color: red;
+}
+.profile-pic img{
+	width: 200px;
+	height: 200px;
+	display: block;
+	border-radius: 50%;
+	z-index: 200;
+}
+#top h3, #top h4{
+	text-align: center;
+	color: white;
+	font-family: berlin sans fb;
+	font-size: 30px;
+}
+#top{
+	background-color: blue;
+	border-radius: 0px;
+	width: 100%;
+	top: 0%;
+}
+#top p{
+	color: yellow;
+	font-family: berlin sans fb;
+}
+#list{
+	background-color: blue;
+	width: 200px;
+	margin-top: 0px;
+	margin-left: -20px;
+	transition: 0.5s ease all;
+}
+#list ul{
+	list-style: none;
+}
+#list ul li{
+	line-height: 50px;
+}
+#list ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: berlin sans fb;
+	margin-left: 30px;
+}
+#list ul li:hover{
+	border-bottom: 4px solid white;
+}
+#button-close{
+	display: none;
+	text-align: center;
+	background-color: red;
+	color: white;
+	border-radius: 50%;
+	border: none;
+	font-size: 30px;
+	width: 50px;
+	position: absolute;
+	left: 65%;
+	cursor: pointer;
+	transform: translateY(20%);
+	z-index: 600;
+	font-family: berlin sans fb;
+}
+.bar{
+	display: none;
+	background-color:yellow;
+	width: 100%;
+	position: fixed;
+	height: 50px;
+	padding: 10px;
+}
+.bar i{
+	font-size: 30px;
+	color: white;
+}
+
+
+
+
+@media(max-width:990px){
+	body{
+		overflow-x: hidden;
+	}
+	#top{
+		background-color: blue;
+		border-radius: 0px;
+		position: absolute;
+		width: 100%;
+		transform: translateY(0%);
+		top: 10%;
+	}
+	.bar{
+		display: block;
+		z-index: 800;
+	}
+	#button-close{
+		display: block;
+	}
+	#list{
+		background-color: blue;
+		width: 200px;
+		margin-top: -100px;
+		transition: 0.5s ease all;
+		z-index: 900;
+		position: fixed;
+	}
+	.profile-pic{
+		margin-top: 100px;
+		/* position: absolute; */
+		z-index: 200;
+	}
+	.prof{
+		color: white;
+		font-family: berlin sans fb;
+		font-size: 20px;
+	}
+	.users{
+		margin-top: 100px;
+		/* position: absolute; */
+		border-left: 5px solid red;
+	}
+}
